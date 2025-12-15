@@ -104,7 +104,7 @@
         <div class="relative">
           <div class="relative rounded-2xl overflow-hidden shadow-2xl">
             <NuxtImg
-              src="/images/main2.png"
+              src="/images/main2.webp"
               alt="Процесс химчистки"
               class="w-full h-[600px] object-cover"
               placeholder
