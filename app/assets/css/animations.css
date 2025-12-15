@@ -1,0 +1,20 @@
+/* Базовые состояния */
+.scroll-animate {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Анимации появления - только когда элемент в viewport */
+.scroll-animate.animate-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scroll-animate.fade-up {
+  transform: translateY(50px);
+}
+
+.scroll-animate.delay-100 {
+  transition-delay: 0.1s;
+}

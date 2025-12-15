@@ -1,0 +1,32 @@
+User-agent: *
+Allow: /
+
+# Основные страницы
+Allow: /clean
+Allow: /clean-region
+Allow: /furniture
+Allow: /furniture-region
+Allow: /b2b
+Allow: /facade
+Allow: /policy
+
+# Запрещаем служебные файлы
+Disallow: /api/
+Disallow: /_nuxt/
+Disallow: /admin/
+Disallow: /.nuxt/
+
+# Sitemap
+Sitemap: https://arkum.ru/sitemap.xml
+
+# Время задержки для ботов
+Crawl-delay: 1
+
+# Специальные правила для Яндекса
+User-agent: Yandex
+Crawl-delay: 2
+Clean-param: utm_source&utm_medium&utm_campaign&utm_content&utm_term&fbclid&gclid
+
+# Специальные правила для Google
+User-agent: Googlebot
+Crawl-delay: 1

@@ -1,0 +1,10 @@
+/* TEAM */
+Developer: TrafficRock
+Contact: arkum161@yandex.ru
+From: Ростов-на-Дону, Россия
+
+/* SITE */
+Last update: 2025/12/13
+Language: Russian
+Doctype: HTML5
+IDE: VS Code, Nuxt 3

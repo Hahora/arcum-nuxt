@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import "./animations.css";
+
+/* Плавный скролл для всей страницы */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Дополнительные стили для улучшения скролла */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Отступ для якорных ссылок чтобы учесть фиксированный хедер */
+section[id] {
+  scroll-margin-top: 80px;
+}
